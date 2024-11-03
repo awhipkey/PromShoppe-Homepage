@@ -1,0 +1,209 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+h1 {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 70ch;
+    font-size: 40px;
+}
+h2 {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+}
+h3 {
+    font-family: "Crimson Text", serif;
+    font-weight: 200;
+    font-style: normal; 
+}
+p {
+    font-family: "Crimson Text", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    max-width: 80ch;
+
+}
+button {
+    padding: 20px 90px 20px 90px;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #EFDDDD;
+    padding: 10px 10px 30px 10px;
+}
+nav {
+    background-color:rgb(72, 18, 29);
+}
+nav ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    margin: 0px 0 100px 0px;
+   width: 100%;
+   text-align: center;
+}
+.responsive-img {
+    width: 100%; 
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.overlay-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.call-action {
+    margin: 60px;
+}
+.NOTIFY {
+    display: flex; 
+    justify-content: CENTER;
+    align-items: center; 
+    flex-direction: row;
+}  
+form input[type="button"], form input[type="text"] {
+    margin: 0; 
+    border: none;
+    box-sizing: border-box; 
+    padding: 20px 30px; 
+}
+form input[type="button"] {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #C5485F;
+    color: white;
+    height: 60px; 
+}
+form input[type="text"] {
+    font-family: "Crimson Text", serif;
+    font-weight: 200;
+    font-size: 18px;
+    height: 60px; 
+}
+
+.shoppefacts {
+    position: relative;
+    text-align: center;
+    margin: 100px 0 100px 0px;
+}
+.about-pic {
+   max-width: 80% ;
+   height: auto;
+}
+.about-text {
+    line-height: 30px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+.contact {
+    background-color: #FFEBEB;
+    border-color: #E0ACAC;
+    color: #CC4863;
+    margin: 60px auto 0 auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px 90px; 
+    text-align: center;
+}
+
+.contact img {
+    margin-right: 10px; 
+    height: 30px;
+    width: auto; 
+}
+
+
+.sale {
+    position: relative;
+    text-align: center;
+    margin: 100px 0 100px 0px;
+}
+.shoes-pic {
+    max-width: 80% ;
+    height: auto;
+}
+.shop {
+    position: absolute;
+    bottom: 20%;
+    left:20%;
+    background-color: #F3BFBF ;
+    color: #CC4863;
+    border-color: #CC4863;
+    display: flex;
+    align-items: center;
+}
+
+
+.hot-picks {
+    margin: 0 auto 90px auto;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin: 30px 0 0 0;
+    border: 10px solid rgb(255, 255, 255);
+    max-width: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+  }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 10px 100px 10px;
+    line-height: 30px;
+    background-color: #22040A ;
+    list-style: none;
+    color: white; 
+}
+.contact-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
