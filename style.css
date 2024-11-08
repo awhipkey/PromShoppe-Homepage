@@ -37,6 +37,7 @@ button {
     font-style: normal;
     text-align: center;
     font-size: 20px;
+    cursor: pointer
 }
 
 
@@ -85,31 +86,37 @@ nav ul a {
     margin: 60px;
 }
 .NOTIFY {
+    margin: 0; 
     display: flex; 
     justify-content: CENTER;
     align-items: center; 
     flex-direction: row;
 }  
-form input[type="button"], form input[type="text"] {
-    margin: 0; 
-    border: none;
-    box-sizing: border-box; 
-    padding: 20px 30px; 
-}
 form input[type="button"] {
+    margin: 0;
     font-family: "Cardo", serif;
     font-weight: 400;
+    font-style: normal;
+    text-align: center;
     font-size: 20px;
-    background-color: #C5485F;
+    background-color:#C5485F;
     color: white;
-    height: 60px; 
+    border-style: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
 }
-form input[type="text"] {
+form input[type="button"]:hover {
+    background-color: #7a2238; 
+  }
+ form input[type="text"] {
+    margin: 0;
     font-family: "Crimson Text", serif;
     font-weight: 200;
+    font-style: normal;
     font-size: 18px;
-    height: 60px; 
-}
+    border-style: none;
+    padding: 20px 30px 20px 30px
+ }
 
 .shoppefacts {
     position: relative;
@@ -139,7 +146,9 @@ form input[type="text"] {
     padding: 20px 90px; 
     text-align: center;
 }
-
+.contact:hover {
+    background-color: #f4d8dd; 
+  }
 .contact img {
     margin-right: 10px; 
     height: 30px;
@@ -166,7 +175,9 @@ form input[type="text"] {
     display: flex;
     align-items: center;
 }
-
+.shop:hover {
+    background-color: #f2d3da; 
+  }
 
 .hot-picks {
     margin: 0 auto 90px auto;
@@ -188,6 +199,12 @@ form input[type="text"] {
   img {
     max-width: 100%;
   }
+.card img {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover img {
+    transform: scale(1.05);
+}
 
 
 footer {
@@ -204,6 +221,12 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-
-
-
+img[src="envelope-simple.svg"] {
+    cursor: pointer;
+}
+img[src="instagram-logo.svg"] {
+    cursor: pointer;
+}
+img[src="thumbs-up.svg"] {
+    cursor: pointer;
+}
